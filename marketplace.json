@@ -1,0 +1,21 @@
+{
+  "name": "govping-skill",
+  "owner": {
+    "name": "Changeflow",
+    "email": "hello@changeflow.com"
+  },
+  "metadata": {
+    "description": "Free regulatory intelligence for AI agents. Search 27,000+ regulatory changes across 2,000+ government sources.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "govping",
+      "description": "Search regulatory changes from FDA, SEC, OSHA, EPA, and 2,000+ government sources. ORCA format. No API key required.",
+      "source": ".",
+      "skills": [
+        "SKILL.md"
+      ]
+    }
+  ]
+}
