@@ -13,12 +13,12 @@ mkdir -p .claude/skills/govping
 cp SKILL.md .claude/skills/govping/
 
 # Or clone directly
-git clone https://github.com/stevebutterworth/govping-skill .claude/skills/govping
+git clone https://github.com/changeflowhq/govping-skill .claude/skills/govping
 ```
 
 ### skills.sh
 ```bash
-npx skillsadd stevebutterworth/govping-skill
+npx skillsadd changeflowhq/govping-skill
 ```
 
 ### Manual
@@ -53,7 +53,7 @@ Structured regulatory intelligence in [ORCA format](https://govping.org/orca):
 - [GovPing](https://govping.org) - Free regulatory intelligence
 - [ORCA Spec](https://govping.org/orca) - Data format specification
 - [Changeflow](https://changeflow.com) - Enterprise web intelligence platform
-- [GovPing MCP Server](https://github.com/stevebutterworth/govping-mcp) - MCP integration
+- [GovPing MCP Server](https://github.com/changeflowhq/govping-mcp) - MCP integration
 
 ## License
 
