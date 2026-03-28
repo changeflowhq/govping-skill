@@ -12,9 +12,10 @@
     {
       "name": "govping",
       "description": "Search regulatory changes from FDA, SEC, OSHA, EPA, and 2,000+ government sources. ORCA format. No API key required.",
-      "source": ".",
+      "source": "./",
+      "strict": false,
       "skills": [
-        "SKILL.md"
+        "./skills/govping"
       ]
     }
   ]
